@@ -57,14 +57,9 @@ public class codeplayfacebookads extends CordovaPlugin {
         Context testParameter = (cordova.getActivity()).getBaseContext();
         if(isFirstTime){
            AudienceNetworkAds.initialize(testParameter);
-           AdSettings.turnOnSDKDebugger(callbackContext);
         }
 
         isFirstTime=false;
-         AudienceNetworkAds
-                .buildInitSettings(callbackContext)
-                .withInitListener(new AudienceNetworkInitializeHelper())
-                .initialize();
 
 
         if (action.equals("showBannerAds")) {
@@ -560,11 +555,6 @@ public class codeplayfacebookads extends CordovaPlugin {
         boolean xlarge = ((conf.screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) == 4);
         boolean large = ((conf.screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) == Configuration.SCREENLAYOUT_SIZE_LARGE);
         return (xlarge || large);
-    }
-
-    @Override
-    public void onInitialized(AudienceNetworkAds.InitResult result) {
-        Log.d(AudienceNetworkAds.TAG, result.getMessage());
     }
 
     @Override
