@@ -1,10 +1,13 @@
 dependencies {
   implementation 'androidx.annotation:annotation:1.0.0'
-  implementation 'com.facebook.android:audience-network-sdk:6.6.0'
+  implementation 'com.facebook.android:audience-network-sdk:+'
   implementation 'com.android.support:recyclerview-v7'
-  implementation 'com.applovin:applovin-sdk:10.3.1'
   implementation 'com.google.android.gms:play-services-location:18.0.0'
-  implementation 'com.applovin.mediation:facebook-adapter:6.6.0.0'
+  implementation 'com.applovin.mediation:facebook-adapter:+'
   implementation 'com.google.android.gms:play-services-ads:20.4.0'
-  implementation 'com.google.ads.mediation:facebook:6.6.0.0'
+  implementation 'com.google.ads.mediation:facebook:+'
+  implementation 'com.applovin:applovin-sdk:+'
+  implementation 'com.applovin.mediation:adcolony-adapter:+'
+  implementation 'com.applovin.mediation:google-adapter:+'
+  implementation 'com.applovin.mediation:ironsource-adapter:+'
 }
