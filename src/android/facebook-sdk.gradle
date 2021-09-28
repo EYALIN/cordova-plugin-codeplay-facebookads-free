@@ -2,7 +2,8 @@ dependencies {
   implementation 'androidx.annotation:annotation:1.0.0'
   implementation 'com.facebook.android:audience-network-sdk:+'
   implementation 'com.android.support:recyclerview-v7'
-  implementation 'com.google.ads.mediation:applovin:10.3.3.0'
+  implementation 'com.applovin:applovin-sdk:10.3.1'
+  //implementation 'com.google.ads.mediation:applovin:10.3.3.0'
   implementation 'com.google.ads.mediation:facebook:6.6.0.0'
-  implementation 'com.google.ads.mediation:adcolony:4.6.2.0'
+  //implementation 'com.google.ads.mediation:adcolony:4.6.2.0' 
 }
