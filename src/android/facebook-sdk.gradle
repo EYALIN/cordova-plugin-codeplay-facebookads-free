@@ -1,3 +1,14 @@
+repositories {
+
+    google()
+    mavenCentral()
+    
+    maven {
+        url 'https://android-sdk.is.com/'
+    }
+
+}
+
 dependencies {
  // implementation 'androidx.annotation:annotation:1.0.0'
   //implementation 'com.facebook.android:audience-network-sdk:6.+'
@@ -6,9 +17,9 @@ dependencies {
   //implementation 'com.google.ads.mediation:applovin:10.3.3.0'
   //implementation 'com.google.ads.mediation:facebook:6.6.0.0'
   //implementation 'com.google.ads.mediation:adcolony:4.6.2.0' 
-    implementation  'androidx.annotation:annotation:+'
-    implementation  'com.google.ads.mediation:adcolony:+'
-    implementation  'com.google.ads.mediation:applovin:+'
-    implementation  'com.google.ads.mediation:facebook:+'
-    implementation  'com.google.ads.mediation:ironsource:+
+    implementation  'androidx.annotation:annotation:4.6.2.0'
+    implementation  'com.google.ads.mediation:adcolony:4.6.2.0'
+    implementation  'com.google.ads.mediation:applovin:10.3.3.0'
+    implementation  'com.google.ads.mediation:facebook:6.7.0.0'
+    implementation  'com.google.ads.mediation:ironsource:7.1.10.0'
 }
