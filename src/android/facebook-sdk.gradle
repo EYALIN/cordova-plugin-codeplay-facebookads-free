@@ -18,7 +18,7 @@ dependencies {
   //implementation 'com.google.ads.mediation:facebook:6.6.0.0'
   //implementation 'com.google.ads.mediation:adcolony:4.6.2.0' 
     implementation  'androidx.annotation:annotation:+'
-   // implementation  'com.google.ads.mediation:adcolony:+'
+    implementation  'com.google.ads.mediation:adcolony:+'
     implementation  'com.google.ads.mediation:applovin:+'
     implementation  'com.google.ads.mediation:facebook:+'
     implementation  'com.google.ads.mediation:ironsource:+'
