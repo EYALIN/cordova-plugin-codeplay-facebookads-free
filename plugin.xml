@@ -14,9 +14,10 @@
     <source-file src="src/android/codeplayfacebookads.java" target-dir="src/cordova/plugin/codeplay/facebookads/free/codeplayfacebookads" />
   <framework custom="true" src="src/android/facebook-sdk.gradle" type="gradleReference" />
   </platform>
-<!--     <platform name="ios">
+  <!--
+     <platform name="ios">
     <!-- <pods-config ios-min-version="9.0" use-frameworks="true" />-->
-    <!-- I don't know if cocoapods support `.+` so I used the latest exact version -->
+    <!-- I don't know if cocoapods support `.+` so I used the latest exact version 
        <config-file target="*-Info.plist" parent="SKAdNetworkItems">
             <array>
                 <dict>
@@ -41,6 +42,6 @@
         </podspec>
 
     <!-- Prevents compilation failures when using pod's id with additional mediations plugins -->
-<!--    <dependency id="cordova-plugin-cocoapod-support" />-->
+<!--    <dependency id="cordova-plugin-cocoapod-support" />
   </platform> -->
 </plugin>
