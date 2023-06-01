@@ -4,7 +4,7 @@ repositories {
     mavenCentral()
     
     maven {
-        url 'https://android-sdk.is.com/'
+        url 'https://sdk.tapjoy.com/'
     }
 
 }
