@@ -16,7 +16,7 @@
 		<source-file src="src/android/codeplayfacebookads.java" target-dir="src/cordova/plugin/codeplay/facebookads/free/codeplayfacebookads" />
 		<framework src="com.google.ads.mediation:facebook:6.14.0.0" />
 		<framework src="com.google.ads.mediation:applovin:11.9.0.0" />
-		<framework src="com.google.ads.mediation:tapjoy:13.0.0.0" />
+		<framework src="com.google.ads.mediation:tapjoy:13.0.1.0" />
 		<framework src="com.yandex.android:mobileads:5.7.0" />
 		<framework src="com.yandex.ads.adapter:admob-mobileads:5.7.0.0" />
 	</platform>
