@@ -3,9 +3,14 @@ repositories {
     google()
     mavenCentral()
     
-    maven {
-        url 'https://sdk.tapjoy.com/'
-    }
+     maven {
+        name "Tapjoy's maven repo"
+        url "https://sdk.tapjoy.com/"
+      }
+      maven {
+        name 'Google'
+        url 'https://maven.google.com/'
+      }
 
 }
 
@@ -17,7 +22,7 @@ dependencies {
   //implementation 'com.google.ads.mediation:applovin:10.3.3.0'
   //implementation 'com.google.ads.mediation:facebook:6.6.0.0'
   //implementation 'com.google.ads.mediation:adcolony:4.6.2.0' 
-    implementation  'androidx.annotation:annotation:+'
+   // implementation  'androidx.annotation:annotation:+'
    // implementation  'com.google.ads.mediation:adcolony:+'
   //  implementation  'com.google.ads.mediation:applovin:+'
   //  implementation 'com.google.ads.mediation:facebook:6.13.7.1'
