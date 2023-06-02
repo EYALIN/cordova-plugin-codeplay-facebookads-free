@@ -2,13 +2,15 @@ repositories {
 
     google()
     mavenCentral()
-    
-     maven {
+    maven {
         name "Tapjoy's maven repo"
         url "https://sdk.tapjoy.com/"
       }
-     maven {
+    maven {
         url 'https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea'
+    }
+    maven {
+        url 'https://artifact.bytedance.com/repository/pangle/'
     }
 
 }
