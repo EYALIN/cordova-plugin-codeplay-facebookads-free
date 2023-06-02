@@ -3,10 +3,6 @@ repositories {
     google()
     mavenCentral()
     maven {
-        name "Tapjoy's maven repo"
-        url "https://sdk.tapjoy.com/"
-      }
-    maven {
         url 'https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea'
     }
     maven {
@@ -16,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.google.ads.mediation:tapjoy:13.0.1.0'
+   // implementation 'com.google.ads.mediation:tapjoy:13.0.1.0'
 
  // implementation 'androidx.annotation:annotation:1.0.0'
   //implementation 'com.facebook.android:audience-network-sdk:6.+'
