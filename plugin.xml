@@ -49,7 +49,7 @@
 				<pod name="GoogleMobileAdsMediationAdColony" spec="~> 4.9.0" />
 				<pod name="GoogleMobileAdsMediationVungle" spec="~> 7.0.0.0" />
 				<pod name="GoogleMobileAdsMediationMintegral" spec="~> 7.3.4.0" />
-				<pod name="GoogleMobileAdsMediationPangle" spec="~> 7.3.4.0" />
+				<pod name="GoogleMobileAdsMediationPangle" spec="~> 5.2.0.6.0" />
 			</pods>
 		</podspec>
 		<!-- Prevents compilation failures when using pod's id with additional mediations plugins -->
