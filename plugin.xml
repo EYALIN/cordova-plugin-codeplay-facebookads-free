@@ -16,8 +16,6 @@
 		<source-file src="src/android/codeplayfacebookads.java" target-dir="src/cordova/plugin/codeplay/facebookads/free/codeplayfacebookads" />
 		<framework custom="true" src="src/android/facebook-sdk.gradle" type="gradleReference" />
 		<framework src="com.google.ads.mediation:facebook:6.14.0.0" />
-		<framework src="com.google.ads.mediation:applovin:11.9.0.0" />
-		<framework src="com.google.ads.mediation:adcolony:4.8.0.2" />
 		<framework src="com.google.ads.mediation:vungle:6.12.1.1" />
 		<framework src="com.google.ads.mediation:mintegral:16.4.41.0" />
 		<framework src="com.google.ads.mediation:pangle:5.2.0.3.0" />
@@ -43,9 +41,6 @@
 			</config>
 			<pods use-frameworks="true">
 				<pod name="GoogleMobileAdsMediationFacebook" spec="~> 6.12.0" />
-				<pod name="GoogleMobileAdsMediationTapjoy" spec="~> 13.0.1" />
-				<pod name="GoogleMobileAdsMediationAppLovin" spec="~> 11.9.0" />
-				<pod name="GoogleMobileAdsMediationAdColony" spec="~> 4.9.0" />
 				<pod name="GoogleMobileAdsMediationVungle" spec="~> 7.0.0.0" />
 				<pod name="GoogleMobileAdsMediationMintegral" spec="~> 7.3.4.0" />
 				<pod name="GoogleMobileAdsMediationPangle" spec="~> 5.2.0.6.0" />
