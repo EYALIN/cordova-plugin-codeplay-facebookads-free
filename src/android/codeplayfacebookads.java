@@ -45,7 +45,17 @@ public class codeplayfacebookads extends CordovaPlugin {
 
     static boolean _isBannerShowing=false;
 
+@Override
+public void onResume() {
+    super.onResume();
+    IronSource.onResume(this);
+}
 
+@Override
+public void onPause() {
+    super.onPause();
+    IronSource.onPause(this);
+}
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
