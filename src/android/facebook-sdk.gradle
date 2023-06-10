@@ -5,7 +5,9 @@ repositories {
     maven {
         url 'https://android-sdk.is.com/'
     }
-
+    maven {
+        url 'https://artifact.bytedance.com/repository/pangle/'
+    }
 }
 
 dependencies {
