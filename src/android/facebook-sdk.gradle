@@ -2,9 +2,7 @@ repositories {
 
     google()
     mavenCentral()
-    maven {
-      url 'https://artifactory.yahooinc.com/artifactory/maven/'
-    }
+
 
 }
 
