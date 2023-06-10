@@ -17,7 +17,7 @@
 		<framework custom="true" src="src/android/facebook-sdk.gradle" type="gradleReference" />
 		<framework src="com.google.ads.mediation:facebook:6.14.0.0" />
 		<framework src="com.google.ads.mediation:ironsource:7.3.0.1.0" />
-
+		<framework src="com.google.ads.mediation:vungle:6.12.1.1" />
 		<!--<framework src="com.google.ads.mediation:vungle:6.12.1.1" />
 		<framework src="com.google.ads.mediation:mintegral:16.4.41.0" />
 		<framework src="com.google.ads.mediation:pangle:5.2.0.3.0" />-->
