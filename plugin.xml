@@ -637,7 +637,7 @@
 			<pods use-frameworks="true">
 				<!-- <pod name="GoogleMobileAdsMediationFacebook" spec="~> 6.14.0.0" />-->
 				<pod name="GoogleMobileAdsMediationAppLovin" spec="~> 11.11.4.0" />
-				<pod name="GoogleMobileAdsMediationVungle" spec="~> 7.2.2.1" />
+				<pod name="GoogleMobileAdsMediationVungle" spec="~> 7.2.1.1" />
 			</pods>
 		</podspec>
 		<!-- Prevents compilation failures when using pod's id with additional mediations plugins -->
