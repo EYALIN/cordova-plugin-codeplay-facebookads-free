@@ -635,9 +635,9 @@
 				<source url="https://cdn.cocoapods.org/" />
 			</config>
 			<pods use-frameworks="true">
-				<!-- <pod name="GoogleMobileAdsMediationFacebook" spec="~> 6.14.0.0" />-->
-				<pod name="GoogleMobileAdsMediationAppLovin" spec="~> 12.4.2.0" />
-				<pod name="GoogleMobileAdsMediationVungle" spec="~> 7.3.2.0" />
+				 <pod name="GoogleMobileAdsMediationFacebook" spec="~> 6.15.1.0" />
+				<pod name="GoogleMobileAdsMediationAppLovin" spec="~> 12.5.0.0" />
+				<pod name="GoogleMobileAdsMediationVungle" spec="~> 7.4.0.0" />
 			</pods>
 		</podspec>
 		<!-- Prevents compilation failures when using pod's id with additional mediations plugins -->
