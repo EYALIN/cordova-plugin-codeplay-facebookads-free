@@ -16,7 +16,7 @@
 		<source-file src="src/android/codeplayfacebookads.java" target-dir="src/cordova/plugin/codeplay/facebookads/free/codeplayfacebookads" />
 		<framework custom="true" src="src/android/facebook-sdk.gradle" type="gradleReference" />
 		<framework src="com.google.ads.mediation:facebook:6.17.0.0" />
-		<framework src="com.google.ads.mediation:vungle:7.4.0.0" />
+		<!--<framework src="com.google.ads.mediation:vungle:7.4.0.0" />-->
 		<!--<framework src="com.google.ads.mediation:mintegral:16.4.61.0" />-->
 		<framework src="com.google.ads.mediation:applovin:12.6.0.0" />
 		<framework src="com.google.ads.mediation:unity:4.12.2.0" />
