@@ -7,11 +7,11 @@
 		<clobbers target="cordova.plugins.codeplayfacebookads" />
 	</js-module>
 	<platform name="android">
-		<config-file parent="/*" target="res/xml/config.xml">
+		<!--<<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="codeplayfacebookads">
 				<param name="android-package" value="cordova.plugin.codeplay.facebookads.free.codeplayfacebookads" />
 			</feature>
-		</config-file>
+		</config-file>-->
 		<config-file parent="/*" target="AndroidManifest.xml"></config-file>
 		<source-file src="src/android/codeplayfacebookads.java" target-dir="src/cordova/plugin/codeplay/facebookads/free/codeplayfacebookads" />
 		<framework custom="true" src="src/android/facebook-sdk.gradle" type="gradleReference" />
@@ -19,6 +19,7 @@
 		<framework src="com.google.ads.mediation:vungle:7.4.3.1" />
 		<!--<framework src="com.google.ads.mediation:mintegral:16.4.61.0" />-->
 		<framework src="com.google.ads.mediation:applovin:13.2.0.1" />
+		<framework src="androidx.datastore:datastore-preferences:1.0.0" />
 		<!--<framework src="com.google.ads.mediation:unity:4.12.2.0" />-->
 		<!--<framework src="com.google.ads.mediation:mintegral:16.4.41.0" />-->
 		<!--<framework src="com.google.ads.mediation:pangle:6.3.0.2.0" />-->
