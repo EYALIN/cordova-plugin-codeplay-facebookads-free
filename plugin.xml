@@ -636,7 +636,6 @@
 			</config>
 			<pods use-frameworks="true">
 				 <pod name="GoogleMobileAdsMediationFacebook" spec="~> 6.17.1.0" />
-				<pod name="GoogleMobileAdsMediationAppLovin" spec="~> 13.2.0.0" />
 				<pod name="GoogleMobileAdsMediationVungle" spec="~> 7.5.0.0" />
 			</pods>
 		</podspec>
