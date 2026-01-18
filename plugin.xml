@@ -635,7 +635,7 @@
 				<source url="https://cdn.cocoapods.org/" />
 			</config>
 			<pods use-frameworks="true">
-				<pod name="GoogleMobileAdsMediationVungle" spec="~> 7.6.0.1" />
+				<pod name="GoogleMobileAdsMediationVungle" spec="~> 7.6"  />
 				<pod name="GoogleMobileAdsMediationAppLovin" spec="~> 13.5.0.0" />
 			</pods>
 		</podspec>
